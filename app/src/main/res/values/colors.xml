@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="Color_383838">#383838</color>
+    <color name="Color_777777">#777777</color>
+    <color name="Color_FFFFFF">#FFFFFF</color>
+
+    <color name="red">#D32F2F</color>
+    <color name="pink">#C2185B</color>
+    <color name="purple">#7B1FA2</color>
+    <color name="deep_purple">#512DA8</color>
+    <color name="indigo">#303F9F</color>
+    <color name="teal">#00796B</color>
+    <color name="green">#388E3C</color>
+    <color name="deep_orange">#E64A19</color>
+    <color name="brown">#5D4037</color>
+    <color name="blue_gray">#455A64</color>
+
+    <color name="dark_color_1">#182825</color>
+    <color name="dark_color_2">#0D2818</color>
+    <color name="dark_color_3">#042A2B</color>
+    <color name="dark_color_4">#66101F</color>
+    <color name="dark_color_5">#2F243A</color>
+    <color name="dark_color_6">#3D2B1F</color>
+    <color name="dark_color_7">#011936</color>
+    <color name="dark_color_8">#3B2C35</color>
+    <color name="dark_color_9">#2E294E</color>
+    <color name="dark_color_10">#841B2D</color>
+    <color name="dark_color_11">#4A1942</color>
+    <color name="dark_color_12">#480607</color>
+    <color name="dark_color_13">#702963</color>
+    <color name="dark_color_14">#453F78</color>
+    <color name="dark_color_15">#36454F</color>
+    <color name="dark_color_16">#832161</color>
+
+
+
+    <array name="dark_material_colors">
+        <item>@color/red</item>
+        <item>@color/pink</item>
+        <item>@color/purple</item>
+        <item>@color/deep_purple</item>
+        <item>@color/indigo</item>
+        <item>@color/teal</item>
+        <item>@color/green</item>
+        <item>@color/deep_orange</item>
+        <item>@color/brown</item>
+        <item>@color/blue_gray</item>
+    </array>
+
+    <array name="dark_colors">
+        <item>@color/dark_color_1</item>
+        <item>@color/dark_color_2</item>
+        <item>@color/dark_color_3</item>
+        <item>@color/dark_color_4</item>
+        <item>@color/dark_color_5</item>
+        <item>@color/dark_color_6</item>
+        <item>@color/dark_color_7</item>
+        <item>@color/dark_color_8</item>
+        <item>@color/dark_color_9</item>
+        <item>@color/dark_color_10</item>
+        <item>@color/dark_color_11</item>
+        <item>@color/dark_color_12</item>
+        <item>@color/dark_color_13</item>
+        <item>@color/dark_color_14</item>
+        <item>@color/dark_color_15</item>
+        <item>@color/dark_color_16</item>
+    </array>
+
+</resources>

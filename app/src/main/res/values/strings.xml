@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">குறள்</string>
+
+    <!--Circle Page Indicator -->
+    <string name="orientation_illegal_argument_exception">Orientation must be either HORIZONTAL or VERTICAL.</string>
+    <string name="adapter_illegal_argument_exception">ViewPager does not have adapter instance.</string>
+    <string name="viewpager_not_bound_illegal_argument_exception">ViewPager has not been bound.</string>
+    <string name="shop_home_view_all_recommended_products_label">view all</string>
+    <string name="slash_seperator">" / "</string>
+    <string name="adhikaram">Adhikaram</string>
+    <string name="kural">Kural</string>
+    <string name="translation">Translation</string>
+    <string name="kural_number">Kural Number</string>
+    <string name="action_settings">action_settings</string>
+
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/kural_view_pager_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/dp_20"
+    android:paddingLeft="@dimen/dp_26"
+    android:paddingRight="@dimen/dp_26"
+    android:paddingTop="@dimen/dp_20">
+
+
+    <TextView
+        android:id="@+id/kural_number_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_6"
+        android:textColor="@color/Color_777777"
+        android:text="@string/kural_number"
+        android:textSize="@dimen/sp_10"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/kural_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kural_number_label"
+        android:layout_marginTop="@dimen/dp_4"
+        android:textColor="@color/Color_FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/kural_adhikaram_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="6dp"
+        android:text="@string/adhikaram"
+        android:textColor="@color/Color_777777"
+        android:textSize="@dimen/sp_10"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/kural_adhikaram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/kural_adhikaram_label"
+        android:layout_marginTop="@dimen/dp_4"
+        android:textColor="@color/Color_FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/kural_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kural_number"
+        android:layout_marginTop="@dimen/dp_28"
+        android:text="@string/kural"
+        android:textColor="@color/Color_777777"
+        android:textSize="@dimen/sp_10"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/kural_line_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kural_label"
+        android:layout_marginTop="@dimen/dp_4"
+        android:textColor="@color/Color_FFFFFF"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/kural_line_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kural_line_1"
+        android:textColor="@color/Color_FFFFFF"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/kural_translation_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kural_line_2"
+        android:layout_marginTop="@dimen/dp_28"
+        android:text="@string/translation"
+        android:textColor="@color/Color_777777"
+        android:textSize="@dimen/sp_10"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/kural_translation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kural_translation_label"
+        android:layout_marginTop="@dimen/dp_4"
+        android:lineSpacingExtra="@dimen/dp_6"
+        android:textColor="@color/Color_FFFFFF"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
